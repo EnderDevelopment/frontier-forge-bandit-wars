@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "frontier_reckoning",
+  "version": "${version}",
+  "name": "Frontier Reckoning",
+  "description": "A harsher frontier survival and outlaw factions framework.",
+  "authors": ["EnderDevelopment"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.enderdevelopment.frontier.FrontierReckoning"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
